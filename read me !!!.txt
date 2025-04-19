@@ -1,0 +1,13 @@
+# Mental Health Companion
+
+A web-based application designed to help users track their mood, interact with a mental health chatbot, and access self-care tips.
+
+## Features:
+- **AI Chatbot**: Interact with a friendly chatbot for mental health support.
+- **Mood Tracker**: Track your mood over time.
+- **Self-Care Tips**: Get personalized self-care advice.
+
+## Installation:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/mental-health-companion.git
