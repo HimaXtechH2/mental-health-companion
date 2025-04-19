@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Companion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar with animation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chatbot">Chatbot</a></li>
+                <li><a href="#moodTracker">Mood Tracker</a></li>
+                <li><a href="#tips">Self-Care Tips</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with smooth scroll -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Your Mental Health Companion</h1>
+            <p>Chat with our AI to track and improve your mental wellness</p>
+            <a href="#chatbot" class="btn smooth-scroll">Start Now</a>
+        </div>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section id="chatbot" class="section">
+        <div class="section-content">
+            <h2>AI Chatbot</h2>
+            <textarea id="userMessage" placeholder="Type a message..." class="input-field"></textarea>
+            <button onclick="sendMessage()" class="btn">Send</button>
+            <div id="chatResponse" class="response"></div>
+        </div>
+    </section>
+
+    <!-- Mood Tracker Section -->
+    <section id="moodTracker" class="section">
+        <div class="section-content">
+            <h2>Track Your Mood</h2>
+            <textarea id="moodInput" placeholder="How are you feeling today?" class="input-field"></textarea>
+            <button onclick="trackMood()" class="btn">Submit Mood</button>
+            <div id="moodResponse" class="response"></div>
+        </div>
+    </section>
+
+    <!-- Self-care Tips Section -->
+    <section id="tips" class="section">
+        <div class="section-content">
+            <h2>Self-Care Tips</h2>
+            <button onclick="getSelfCareTips()" class="btn">Get Tips</button>
+            <div id="selfCareTips" class="response"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mental Health Companion. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
